@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Ubuntu:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+@media only screen and (max-width: 760px) {
+  .grid {
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Serif Pro", serif;
+  }
+  .grid img {
+    width: 100vw;
+  }
+  .themed-grid-col {
+    border-color: white;
+  }
+  .themed-container {
+    border-color: white;
+  }
+}
+.text {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 40vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.themed-grid-col {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(245, 239, 252, 0.925);
+  display: inline-flex;
+}
+
+.themed-container {
+  padding: 0.1rem;
+  margin-bottom: 1.5rem;
+  background-color: rgba(0, 123, 255, 0.15);
+  border: 1px solid rgba(0, 123, 255, 0.2);
+  display: flex;
+}
+
+.grid {
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Serif Pro", serif;
+}
+.grid h4 {
+  padding-left: 200px;
+}
+
+.grid img {
+  object-fit: contain;
+}
+.grid a {
+  color: red;
+}
+.grid a:active {
+  color: blue;
+  font-size: large;
+}
